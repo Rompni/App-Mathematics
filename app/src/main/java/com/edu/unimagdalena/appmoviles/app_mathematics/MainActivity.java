@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     EditText x1, x2, y1, y2;
     TextView solve;
-    static DecimalFormat formato1 = new DecimalFormat("#.00");
+    static DecimalFormat formato1 = new DecimalFormat("#.##");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public static String slope(double x1, double y1, double x2, double y2) {
-        if (x1 == 0 && x2 == 0)
+        if (x1 == x2)
             return "S: La pendiente para estos valores no esta definida";
 
         double sol = (y2-y1)/(x2-x1);
