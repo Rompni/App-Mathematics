@@ -1,5 +1,5 @@
 # App-Mathematics 
-App Movil con la siguientes funciones:
+App Movil para optativa Android con la siguientes funciones:
 - Distancia entre dos puntos.
 - Punto medio entre dos puntos.
 - La pendiente de dos puntos.
