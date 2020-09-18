@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15sp"
+    android:layout_marginBottom="15sp"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/x1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/x1"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/valueX1"
+            style="@android:style/Widget.Holo.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="60sp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/number"
+            android:importantForAutofill="no"
+
+            android:inputType="number|numberDecimal"
+            android:labelFor="@id/x1"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/y1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/y1"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/valueY1"
+            style="@android:style/Widget.Material.Light.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="60sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="number|numberDecimal"
+            android:labelFor="@id/y1"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/x2"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/valueX2"
+            style="@android:style/Widget.Material.Light.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="60sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/back"
+            android:ems="10"
+            android:foregroundGravity="fill_vertical"
+            android:hint="@string/number"
+            android:inputType="number|numberDecimal"
+            android:labelFor="@id/x2"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/y2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/y2"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/valueY2"
+            style="@android:style/Widget.Material.Light.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="60sp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/number"
+            android:importantForAutofill="no"
+            android:inputType="number|numberDecimal"
+            android:labelFor="@id/y2"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnMidpoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            android:text="@string/Midpoint"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSlope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            android:text="@string/Slope"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnQuadrant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            android:text="@string/Quadrant"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/solves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_weight="1"
+        android:text="@string/s"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

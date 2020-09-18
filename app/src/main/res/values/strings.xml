@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App-Mathematics</string>
+    <string name="randomtitle">Numeros Aleatorio</string>
+    <string name="distance">Distancia</string>
+    <string name="x1">X1</string>
+    <string name="y1">Y1</string>
+    <string name="x2">X2</string>
+    <string name="y2">Y2</string>
+    <string name="Midpoint">Punto Medio</string>
+    <string name="Slope">Pendiente</string>
+    <string name="Quadrant">Cuadrante</string>
+    <string name="s">S:</string>
+    <string name="number">0</string>
+</resources>

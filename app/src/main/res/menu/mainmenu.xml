@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/randomNumbers"
+        android:title="@string/randomtitle" />
+    <item
+        android:id="@+id/distance"
+        android:title="@string/distance" />
+</menu>
